@@ -1,12 +1,16 @@
 # Viewport Pro Trial
-2.9X no longer works, **minimum requirement**: Blender 3.0
+**minimum requirement**: Blender 3.4
 
-The Standard Edition will be released on the Blender Market around June 2023 and is currently experimental.
+The Standard Edition will be released on the Blender Market on July 31, 2023
 Blender Market: https://blendermarket.com/products/viewport-pro-trial
 
 Bug Report: see the user guide
 
 # Update Log
+### v_23_5_0  2023-06-22 UTC
+New Light tool and many bug fixes.
+
+
 ### v_23_4_0  2023-04-08 UTC
 ###   New:  
     Ability to select external library objects in Text Filter
