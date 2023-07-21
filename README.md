@@ -7,6 +7,10 @@ Blender Market: https://blendermarket.com/products/viewport-pro-trial
 Bug Report: see the user guide
 
 # Update Log
+### v_23_6_0  2023-07-21 UTC
+Bug fixes, improved stability.
+
+
 ### v_23_5_0  2023-06-22 UTC
 New Light tool and many bug fixes.
 
