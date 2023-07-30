@@ -10,9 +10,9 @@ Bug Report: see the user guide
 
 # Update Log
 ### v_23_7_0  2023-07-30 UTC
-Bug fixed:
-    1. Object Picker bug when active object is hidden.
-    2. Clear keyframe bug on some attribute in Modifier Editor.
+Bug fixed:  
+  1. Object Picker bug when active object is hidden.  
+  2. Clear keyframe bug on some attribute in Modifier Editor.  
 
 ### v_23_6_0  2023-07-21 UTC
 Bug fixes, improved stability.
