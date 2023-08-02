@@ -3,8 +3,8 @@
 
 The Standard Edition will be released on the Blender Market on July 31, 2023  
 Blender Market:  
-    Standard: Coming soon  
-    Trial: https://blendermarket.com/products/viewport-pro-trial
+    Standard: https://blendermarket.com/products/viewport-pro  
+    Trial: https://blendermarket.com/products/viewport-pro-trial  
 
 Bug Report: see the user guide
 
