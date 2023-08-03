@@ -9,6 +9,9 @@ Blender Market:
 Bug Report: see the user guide
 
 # Update Log
+### v_23_8_0  2023-08-03 UTC
+Fix mouse scroll bug in the value box  
+
 ### v_23_7_0  2023-07-30 UTC
 Bug fixed:  
   1. Object Picker bug when active object is hidden.  
