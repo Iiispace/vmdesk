@@ -1,7 +1,6 @@
 # Viewport Pro Trial
 **minimum requirement**: Blender 3.4
 
-The Standard Edition will be released on the Blender Market on July 31, 2023  
 Blender Market:  
     Standard: https://blendermarket.com/products/viewport-pro  
     Trial: https://blendermarket.com/products/viewport-pro-trial  
@@ -9,6 +8,9 @@ Blender Market:
 Bug Report: see the user guide
 
 # Update Log
+### v_23_9_0  2023-09-01 UTC
+New: Geometry Nodes Library and Geometry Nodes Modifier
+
 ### v_23_8_0  2023-08-03 UTC
 Fix mouse scroll bug in the value box  
 
