@@ -1,0 +1,1303 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Keymap</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+            
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <div style="background-color: #909190; padding: 40px;">
+<h1 id="keymap">Keymap</h1>
+<h2 id="window">Window</h2>
+<p>Editor default shortcut keys</p>
+<!-- gen_context -->
+<h2 id="esc">Esc</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.esc</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Cancel</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>ESC</code><br/>Esc</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="click">Click</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.click</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Left Mouse Button</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>RELEASE</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFTMOUSE</code><br/>Left Mouse</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>RELEASE</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="title-move">Title Move</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.title_move</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Move Window from Title Bar</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>RELEASE</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFTMOUSE</code><br/>Left Mouse</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>RELEASE</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="title-button">Title Button</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.title_button</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Window Title Bar Button</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>RELEASE</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFTMOUSE</code><br/>Left Mouse</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>RELEASE</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="resize">Resize</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.resize</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Window Resize</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>RELEASE</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFTMOUSE</code><br/>Left Mouse</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>RELEASE</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="pan">Pan</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.pan</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Pan the canvas</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>RELEASE</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>MIDDLEMOUSE</code><br/>Middle Mouse</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>RELEASE</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="pan-window">Pan Window</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.pan_win</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Pan the global canvas</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>DRAG</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>RELEASE</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>RIGHTMOUSE</code><br/>Right Mouse</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>RELEASE</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="context-menu">Context Menu</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.rm</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Right Click menu</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>HOLD</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>RIGHTMOUSE</code><br/>Right Mouse</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="redo">Redo</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.redo</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Redo previous action</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_SHIFT, LEFT_CTRL, Z</code><br/>Left Shift  Left Ctrl  Z</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="undo">Undo</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.undo</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Undo previous action</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_CTRL, Z</code><br/>Left Ctrl  Z</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="detail">Detail</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.detail</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Detail</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>F1</code><br/>F1</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="fold-all-recursive-toggle">Fold All Recursive Toggle</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.fold_all_recursive_toggle</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Recursively Collapse all blocks / Recursively Expand All Blocks</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_SHIFT, R</code><br/>Left Shift  R</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="fold-all-toggle">Fold All Toggle</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.fold_all_toggle</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Collapse all blocks / Expand All Blocks</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>R</code><br/>R</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="fold-recursive-toggle">Fold Recursive Toggle</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.fold_recursive_toggle</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Recursively Collapse block / Recursively Expand Block</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_SHIFT, Q</code><br/>Left Shift  Q</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="fold-toggle">Fold Toggle</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.fold_toggle</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Collapse block / Expand Block</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>Q</code><br/>Q</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="rename">Rename</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.rename</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Rename</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>DOUBLE_PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFTMOUSE</code><br/>Left Mouse</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<!-- gen_context_end -->
+
+            
+            
+        </body>
+        </html>

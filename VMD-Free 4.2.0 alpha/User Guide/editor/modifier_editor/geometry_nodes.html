@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Geometry Nodes</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+            
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <div style="background-color: #909190; padding: 40px;">
+<h1 id="geometry-nodes">Geometry Nodes</h1>
+<p>The editor can add a new subgroup of Sockets, the format of which is stored in the socket description.</p>
+<p><img src="file:///d:\OneDrive\Code\Blender\_VPP\MD\editor\modifier_editor\img\indent.png" alt=""></p>
+<h2 id="geometry-node-modifier-indentation-format">Geometry Node Modifier Indentation Format</h2>
+<p>To use the Indentation Format, you need to add a semicolon at the beginning of the socket description.</p>
+<pre><code>;#0;sep(1);  Socket description..
+</code></pre>
+<h3 id="indent">Indent</h3>
+<p>Indent to level 1.</p>
+<pre><code>;#1
+</code></pre>
+<h3 id="unindent">Unindent</h3>
+<p>Unindent to level 0.</p>
+<pre><code>;#0
+</code></pre>
+<h3 id="title-indent">Title Indent</h3>
+<p>Show title only when indented.</p>
+<p>Enable the <strong>Hide Value</strong> property.</p>
+<p><img src="file:///d:\OneDrive\Code\Blender\_VPP\MD\editor\modifier_editor\img\indent2.png" alt=""></p>
+<h3 id="separator">Separator</h3>
+<pre><code>;sep(x)
+    Parameters:
+        x (float)
+</code></pre>
+<p><img src="file:///d:\OneDrive\Code\Blender\_VPP\MD\editor\modifier_editor\img\indent3.png" alt=""></p>
+<h3 id="alignment">Alignment</h3>
+<pre><code>;align(x)
+    Parameters:
+        x : 
+            hide : Hide the socket
+            title : boolean title
+            right : Align right
+</code></pre>
+<pre><code>;align(title)
+</code></pre>
+<p><img src="file:///d:\OneDrive\Code\Blender\_VPP\MD\editor\modifier_editor\img\indent4.png" alt=""></p>
+<pre><code>;#1;align(right)
+</code></pre>
+<p><img src="file:///d:\OneDrive\Code\Blender\_VPP\MD\editor\modifier_editor\img\indent5.png" alt=""></p>
+
+            
+            
+        </body>
+        </html>
