@@ -1,0 +1,4098 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>&ast;&ast;Keymap&ast;&ast;</title>
+            <style>
+</style>
+            
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <div style="background-color: #909190; padding: 40px;">
+<h1 id="keymap"><strong>Keymap</strong></h1>
+<h2 id="text-input">Text Input</h2>
+<p>Text Box and Filter Area default shortcut keys</p>
+<!-- gen_context -->
+<h2 id="menu-esc">Menu Esc</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_esc</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Drop Down Menu Cancel</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>ESC</code><br/>Esc</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>RELEASE</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>RIGHTMOUSE</code><br/>Right Mouse</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="pan">Pan</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.pan</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Pan the canvas</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>RELEASE</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>MIDDLEMOUSE</code><br/>Middle Mouse</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>RELEASE</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="text-match-end-toggle">Text Match End Toggle</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_match_end</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Toggle Match End option in Filter</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_ALT, E</code><br/>Left Alt  E</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="text-match-case-toggle">Text Match Case Toggle</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_match_case</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Toggle Match Case option in Filter</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_ALT, C</code><br/>Left Alt  C</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="text-match-whole-word-toggle">Text Match Whole Word Toggle</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_match_whole_word</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Toggle Match Whole Word option in Filter</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_ALT, W</code><br/>Left Alt  W</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="select-all-text-toggle">Select all Text Toggle</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_select_all</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Select all character, Deselect all if all selected</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_CTRL, A</code><br/>Left Ctrl  A</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="select-word">Select Word</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_select_word</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Select Word from Beam Cursor</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>DOUBLE_PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFTMOUSE</code><br/>Left Mouse</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="text-cut">Text Cut</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_cut</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Cut character from selection, Cut all when no selection</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_CTRL, X</code><br/>Left Ctrl  X</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>True</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="text-paste">Text Paste</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_paste</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Paste character from selection / I-Beam cursor</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_CTRL, V</code><br/>Left Ctrl  V</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>True</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="text-copy">Text Copy</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_copy</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Copy character from selection / I-Beam cursor</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_CTRL, C</code><br/>Left Ctrl  C</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>True</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="delete-all-text">Delete all Text</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_del_all</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Remove all characters</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_CTRL, DEL</code><br/>Left Ctrl  Delete</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="delete-selection--line">Delete Selection / Line</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_del</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Remove all characters in selection / Remove current line</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>DEL</code><br/>Delete</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="text-word-backspace">Text Word Backspace</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_del_word</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Removes whole word from the I-Beam cursor, and if there is a selection, removes the selection</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_CTRL, BACK_SPACE</code><br/>Left Ctrl  Backspace</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="text-backspace">Text Backspace</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_del_chr</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Removes 1 character from the I-Beam cursor, and if there is a selection, removes the selection</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>BACK_SPACE</code><br/>Backspace</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="text-cursor-line-begin-select">Text Cursor Line Begin Select</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_beam_line_begin_shift</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Move I-Beam Cursor to Line Begin and extend the selection</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_SHIFT, LEFT_CTRL, NUMPAD_7</code><br/>Left Shift  Left Ctrl  Numpad 7</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="text-cursor-line-end-select">Text Cursor Line End Select</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_beam_line_end_shift</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Move I-Beam Cursor to Line End and extend the selection</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_SHIFT, LEFT_CTRL, NUMPAD_9</code><br/>Left Shift  Left Ctrl  Numpad 9</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="text-cursor-previous-word-select">Text Cursor Previous Word Select</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_beam_left_word_shift</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Move I-Beam Cursor to Previous Word and extend the selection</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_SHIFT, LEFT_CTRL, NUMPAD_4</code><br/>Left Shift  Left Ctrl  Numpad 4</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="text-cursor-next-word-select">Text Cursor Next Word Select</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_beam_right_word_shift</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Move I-Beam Cursor to Next Word and extend the selection</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_SHIFT, LEFT_CTRL, NUMPAD_6</code><br/>Left Shift  Left Ctrl  Numpad 6</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="text-cursor-left-select">Text Cursor Left Select</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_beam_left_shift</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Move I-Beam Cursor Left and extend the selection</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_SHIFT, LEFT_ARROW</code><br/>Left Shift  Left Arrow</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="text-cursor-right-select">Text Cursor Right Select</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_beam_right_shift</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Move I-Beam Cursor Right and extend the selection</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_SHIFT, RIGHT_ARROW</code><br/>Left Shift  Right Arrow</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="text-cursor-down-select">Text Cursor Down Select</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_beam_down_shift</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Move I-Beam Cursor Down and extend the selection</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_SHIFT, DOWN_ARROW</code><br/>Left Shift  Down Arrow</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="text-cursor-up-select">Text Cursor Up Select</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_beam_up_shift</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Move I-Beam Cursor Up and extend the selection</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_SHIFT, UP_ARROW</code><br/>Left Shift  Up Arrow</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="text-cursor-line-begin">Text Cursor Line Begin</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_beam_line_begin</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Move I-Beam Cursor to Line Begin</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_CTRL, NUMPAD_7</code><br/>Left Ctrl  Numpad 7</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="text-cursor-line-end">Text Cursor Line End</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_beam_line_end</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Move I-Beam Cursor to Line End</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_CTRL, NUMPAD_9</code><br/>Left Ctrl  Numpad 9</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="text-cursor-previous-word">Text Cursor Previous Word</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_beam_left_word</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Move I-Beam Cursor to Previous Word</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_CTRL, NUMPAD_4</code><br/>Left Ctrl  Numpad 4</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="text-cursor-next-word">Text Cursor Next Word</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_beam_right_word</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Move I-Beam Cursor to Next Word</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_CTRL, NUMPAD_6</code><br/>Left Ctrl  Numpad 6</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="text-cursor-left">Text Cursor Left</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_beam_left</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Move I-Beam Cursor Left</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_ARROW</code><br/>Left Arrow</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="text-cursor-right">Text Cursor Right</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_beam_right</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Move I-Beam Cursor Right</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>RIGHT_ARROW</code><br/>Right Arrow</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="text-cursor-down--filter-selection-down">Text Cursor Down / Filter selection Down</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_beam_down</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Move I-Beam Cursor Down or select results in filters</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>DOWN_ARROW</code><br/>Down Arrow</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="text-cursor-up--filter-selection-up">Text Cursor Up / Filter selection Up</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_beam_up</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Move I-Beam Cursor Up or select results in filters</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>UP_ARROW</code><br/>Up Arrow</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="text-cursor-end-select">Text Cursor End Select</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_beam_end_shift</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Move I-Beam Cursor to End and extend the selection</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_CTRL, END</code><br/>Left Ctrl  End</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="text-cursor-start-select">Text Cursor Start Select</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_beam_start_shift</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Move I-Beam Cursor to Start and extend the selection</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_CTRL, HOME</code><br/>Left Ctrl  Home</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="text-cursor-end">Text Cursor End</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_beam_end</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Move I-Beam Cursor to End</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>END</code><br/>End</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="text-cursor-start">Text Cursor Start</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_beam_start</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Move I-Beam Cursor to Start</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>HOME</code><br/>Home</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="scrollbar-most-left">Scrollbar Most Left</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_scroll_left_most</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Move the Scrollbar to the far left</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_CTRL, LEFT_ALT, PAGE_UP</code><br/>Left Ctrl  Left Alt  Page Up</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="scrollbar-most-right">Scrollbar Most Right</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_scroll_right_most</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Move the Scrollbar to the far right</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_CTRL, LEFT_ALT, PAGE_DOWN</code><br/>Left Ctrl  Left Alt  Page Down</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="scrollbar-bottom">Scrollbar Bottom</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_scroll_down_most</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Move the Scrollbar to bottom</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_CTRL, PAGE_DOWN</code><br/>Left Ctrl  Page Down</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="scrollbar-top">Scrollbar Top</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_scroll_up_most</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Move the Scrollbar to Top</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_CTRL, PAGE_UP</code><br/>Left Ctrl  Page Up</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="scrollbar-left">Scrollbar Left</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_scroll_left</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Move the Scrollbar left</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_ALT, PAGE_UP</code><br/>Left Alt  Page Up</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="scrollbar-right">Scrollbar Right</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_scroll_right</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Move the Scrollbar right</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_ALT, PAGE_DOWN</code><br/>Left Alt  Page Down</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="scrollbar-down">Scrollbar Down</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_scroll_down</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Move the Scrollbar down</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>PAGE_DOWN</code><br/>Page Down</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="scrollbar-up">Scrollbar Up</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_scroll_up</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Move the Scrollbar up</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>PAGE_UP</code><br/>Page Up</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="scrollbar-left-area">Scrollbar Left Area</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_scroll_left_area</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Move the Scrollbar left in Scrollbar area</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>WHEELINMOUSE</code><br/>Wheel In</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="scrollbar-right-area">Scrollbar Right Area</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_scroll_right_area</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Move the Scrollbar right in Scrollbar area</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>WHEELOUTMOUSE</code><br/>Wheel Out</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="scrollbar-down-area">Scrollbar Down Area</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_scroll_down_area</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Move the Scrollbar down in Scrollbar area</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>WHEELDOWNMOUSE</code><br/>Wheel Down</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="scrollbar-up-area">Scrollbar Up Area</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_scroll_up_area</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Move the Scrollbar up in Scrollbar area</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>WHEELUPMOUSE</code><br/>Wheel Up</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="scrollbar-operation">Scrollbar Operation</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_scroll</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Move the Scrollbar</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>RELEASE</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFTMOUSE</code><br/>Left Mouse</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>RELEASE</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="text-selection-shift">Text Selection Shift</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_selection_shift</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Text shift selection operation</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>RELEASE</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_SHIFT, LEFTMOUSE</code><br/>Left Shift  Left Mouse</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>RELEASE</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="text-selection">Text Selection</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_selection</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Text selection operation</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>RELEASE</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFTMOUSE</code><br/>Left Mouse</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>RELEASE</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="drop-down-menu--text-confirm">Drop Down Menu / Text Confirm</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_confirm</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Drop Down Menu confirm or Text confirm</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>RET</code><br/>Return</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>NUMPAD_ENTER</code><br/>Numpad Enter</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="drop-down-menu-confirm-area">Drop Down Menu Confirm Area</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_confirm_area</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Drop Down Menu or Text confirm when the cursor is not in the Menu area</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFTMOUSE</code><br/>Left Mouse</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="text-line-break">Text Line Break</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_linebreak</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Line Break</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_SHIFT, RET</code><br/>Left Shift  Return</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="text-unindent">Text Unindent</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_untab</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Text Unindent</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_SHIFT, TAB</code><br/>Left Shift  Tab</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="text-tab">Text Tab</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_tab</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Text Indent / Autocomplete</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>TAB</code><br/>Tab</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>False</code><br/>None</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<h2 id="preview">Preview</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><code>key.dd_preview</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Key: Preview Data-Block</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr><td>
+<table>
+<thead>
+<tr>
+<th>Key 1</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_CTRL, P</code><br/>Left Ctrl  P</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Key 2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>PRESS</td>
+</tr>
+<tr>
+<td>End Value</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Combination</td>
+<td><code>LEFT_CTRL, I</code><br/>Left Ctrl  I</td>
+</tr>
+<tr>
+<td>Exact</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</td></tr> </table>
+<br/>
+<!-- gen_context_end -->
+
+            
+            
+        </body>
+        </html>
