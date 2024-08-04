@@ -8,8 +8,10 @@
 
     ![](./img/ime.png)
 
-- When the workspace changes / load a new blend file / switch to local or quad view, the subsystem will automatically close.
+- When the Blender theme or UI font is changed, you need to manually press "Reload Fonts".
 
-- When the Blender theme changes / add-on updated to new versions / reload event, Blender needs to be restarted to use the add-on.
+    ![](./img/reloadfont.png)
+
+- When the workspace changes / load a new blend file / switch to local or quad view, the subsystem will automatically close.
 
 - Changing length units or unit scale requires restarting the editor.
