@@ -7,20 +7,8 @@ You can install updates in the following 2 ways:
 - Directly replace the original file
 
 ## Blender UI
-Edit > Preferences
 
-![](./img/edit_pref.png)
-
-<br/>
-
-Uncheck the "**Disable Add-on**" button
-
-![](./img/pref_addon.png)
-
-<br/>
-
-Save Preferences and restart Blender.  
-Then proceed to the installation steps: 
+Same as installation steps: 
 
 - [Installation](./installation.md)
 

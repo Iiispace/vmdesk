@@ -15,3 +15,8 @@
 - When the workspace changes / load a new blend file / switch to local or quad view, the subsystem will automatically close.
 
 - Changing length units or unit scale requires restarting the editor.
+
+- The preview of color properties for some colors is inaccurate.
+  - Blender Foundation confirms there is an internal bug that prevents certain colors from being displayed in GPU module, some colors will display incorrectly in the UI until they are fixed.
+
+  ![](./img/fix.png)

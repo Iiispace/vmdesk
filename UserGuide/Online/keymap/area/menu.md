@@ -6,7 +6,7 @@ Menu default shortcut keys
 
 <!-- gen_context -->
 
-## Area Apply
+## Apply
 | ID | `key.area_apply` |
 |--|--|
 | Description | Key: Apply element in area |
@@ -34,7 +34,7 @@ Menu default shortcut keys
 
 
 
-## Area Delete
+## Delete
 | ID | `key.area_del` |
 |--|--|
 | Description | Key: Delete element in area |
@@ -54,6 +54,34 @@ Menu default shortcut keys
 |--|--|
 | Value         | PRESS |
 | End Value     | - |
+| Combination   | `X`<br/>X |
+| Exact         | False |
+
+</td></tr> </table>
+<br/>
+
+
+
+## Add
+| ID | `key.area_add` |
+|--|--|
+| Description | Key: Add new element from area |
+<table>
+<tr><td>
+
+| Key 1 | |
+|--|--|
+| Value         | PRESS |
+| End Value     | - |
+| Combination   | `LEFT_ALT, A`<br/>Left Alt  A |
+| Exact         | False |
+
+</td><td>
+
+| Key 2 | |
+|--|--|
+| Value         | PRESS |
+| End Value     | - |
 | Combination   | `False`<br/>None |
 | Exact         | False |
 
@@ -62,10 +90,10 @@ Menu default shortcut keys
 
 
 
-## Area Active Move to Bottom
+## Active Move to Bottom
 | ID | `key.area_active_down_most_shift` |
 |--|--|
-| Description | Key: Move the Active element to the bottom in the list |
+| Description | Key: Move the Active element to the bottom in the list from area |
 <table>
 <tr><td>
 
@@ -90,10 +118,10 @@ Menu default shortcut keys
 
 
 
-## Area Active Move to Top
+## Active Move to Top
 | ID | `key.area_active_up_most_shift` |
 |--|--|
-| Description | Key: Move the Active element to the top in the list |
+| Description | Key: Move the Active element to the top in the list from area |
 <table>
 <tr><td>
 
@@ -118,10 +146,10 @@ Menu default shortcut keys
 
 
 
-## Area Active Move Down
+## Active Move Down
 | ID | `key.area_active_down_shift` |
 |--|--|
-| Description | Key: Move the Active element down in the list |
+| Description | Key: Move the Active element down in the list from area |
 <table>
 <tr><td>
 
@@ -146,10 +174,10 @@ Menu default shortcut keys
 
 
 
-## Area Active Move Up
+## Active Move Up
 | ID | `key.area_active_up_shift` |
 |--|--|
-| Description | Key: Move the Active element up in the list |
+| Description | Key: Move the Active element up in the list from area |
 <table>
 <tr><td>
 
@@ -174,10 +202,10 @@ Menu default shortcut keys
 
 
 
-## Area Select Active Bottom
+## Select Active Bottom
 | ID | `key.area_active_down_most` |
 |--|--|
-| Description | Key: Active index set to last |
+| Description | Key: Active index set to last from area |
 <table>
 <tr><td>
 
@@ -202,10 +230,10 @@ Menu default shortcut keys
 
 
 
-## Area Select Active Top
+## Select Active Top
 | ID | `key.area_active_up_most` |
 |--|--|
-| Description | Key: Active index set to 0 |
+| Description | Key: Active index set to 0 from area |
 <table>
 <tr><td>
 
@@ -230,10 +258,10 @@ Menu default shortcut keys
 
 
 
-## Area Select Active Down
+## Select Active Down
 | ID | `key.area_active_down` |
 |--|--|
-| Description | Key: Active index add 1 |
+| Description | Key: Active index add 1 from area |
 <table>
 <tr><td>
 
@@ -258,10 +286,10 @@ Menu default shortcut keys
 
 
 
-## Area Select Active Up
+## Select Active Up
 | ID | `key.area_active_up` |
 |--|--|
-| Description | Key: Active index minus 1 |
+| Description | Key: Active index minus 1 from area |
 <table>
 <tr><td>
 
@@ -286,7 +314,7 @@ Menu default shortcut keys
 
 
 
-## Area Move Element
+## Move Element
 | ID | `key.area_sort` |
 |--|--|
 | Description | Key: Move element operation |
@@ -314,7 +342,7 @@ Menu default shortcut keys
 
 
 
-## Area Move Element Modal Cancel
+## Cancel Elements
 | ID | `key.area_sort_modal_cancel` |
 |--|--|
 | Description | Key: Cancel in Move Element operation |
@@ -342,7 +370,7 @@ Menu default shortcut keys
 
 
 
-## Area Move Element Modal Apply
+## Apply Elements
 | ID | `key.area_sort_modal_apply` |
 |--|--|
 | Description | Key: Apply in Move Element operation |
@@ -370,7 +398,7 @@ Menu default shortcut keys
 
 
 
-## Area Move Element Modal Delete
+## Delete Elements
 | ID | `key.area_sort_modal_del` |
 |--|--|
 | Description | Key: Delete in Move Element operation |
@@ -398,7 +426,7 @@ Menu default shortcut keys
 
 
 
-## Area Move Element Modal Rearrange
+## Rearrange Elements
 | ID | `key.area_sort_modal_sort` |
 |--|--|
 | Description | Key: Rearrange in Move Element operation |
@@ -426,10 +454,10 @@ Menu default shortcut keys
 
 
 
-## Area Select Box Extend
+## Select Box Extend
 | ID | `key.area_selectbox_extend` |
 |--|--|
-| Description | Key: Extend existing selection |
+| Description | Key: Extend existing selection from area |
 <table>
 <tr><td>
 
@@ -454,10 +482,10 @@ Menu default shortcut keys
 
 
 
-## Area Select Box Subtract
+## Select Box Subtract
 | ID | `key.area_selectbox_subtract` |
 |--|--|
-| Description | Key: Subtract existing selection |
+| Description | Key: Subtract existing selection from area |
 <table>
 <tr><td>
 
@@ -482,10 +510,10 @@ Menu default shortcut keys
 
 
 
-## Area Select Box
+## Select Box
 | ID | `key.area_selectbox_new` |
 |--|--|
-| Description | Key: Set a new selection |
+| Description | Key: Set a new selection from area |
 <table>
 <tr><td>
 
@@ -510,10 +538,10 @@ Menu default shortcut keys
 
 
 
-## Area Select Extend
+## Select Extend
 | ID | `key.area_select_extend` |
 |--|--|
-| Description | Key: Extend and change active element |
+| Description | Key: Extend and change active element from area |
 <table>
 <tr><td>
 
@@ -538,10 +566,10 @@ Menu default shortcut keys
 
 
 
-## Area Select
+## Select
 | ID | `key.area_select` |
 |--|--|
-| Description | Key: Change active element |
+| Description | Key: Change active element from area |
 <table>
 <tr><td>
 
@@ -566,10 +594,10 @@ Menu default shortcut keys
 
 
 
-## Area Copy to Selected
+## Copy to Selected
 | ID | `key.area_copy_to_selected` |
 |--|--|
-| Description | Key: Copy to Selected |
+| Description | Key: Copy to Selected from area |
 <table>
 <tr><td>
 
@@ -594,7 +622,91 @@ Menu default shortcut keys
 
 
 
-## Value Box Drag
+## Unpin to Last Selected
+| ID | `key.area_unpin_to_last_selected` |
+|--|--|
+| Description | Key: Unpin to Last for selection from area |
+<table>
+<tr><td>
+
+| Key 1 | |
+|--|--|
+| Value         | PRESS |
+| End Value     | - |
+| Combination   | `LEFT_ALT, P, O`<br/>Left Alt  P  O |
+| Exact         | False |
+
+</td><td>
+
+| Key 2 | |
+|--|--|
+| Value         | PRESS |
+| End Value     | - |
+| Combination   | `False`<br/>None |
+| Exact         | False |
+
+</td></tr> </table>
+<br/>
+
+
+
+## Pin to Last Selected
+| ID | `key.area_pin_to_last_selected` |
+|--|--|
+| Description | Key: Pin to Last for selection from area |
+<table>
+<tr><td>
+
+| Key 1 | |
+|--|--|
+| Value         | PRESS |
+| End Value     | - |
+| Combination   | `LEFT_CTRL, P, O`<br/>Left Ctrl  P  O |
+| Exact         | False |
+
+</td><td>
+
+| Key 2 | |
+|--|--|
+| Value         | PRESS |
+| End Value     | - |
+| Combination   | `False`<br/>None |
+| Exact         | False |
+
+</td></tr> </table>
+<br/>
+
+
+
+## Pin to Last Toggle
+| ID | `key.area_pin_to_last_toggle` |
+|--|--|
+| Description | Key: Toggle Pin to Last from area |
+<table>
+<tr><td>
+
+| Key 1 | |
+|--|--|
+| Value         | RELEASE |
+| End Value     | - |
+| Combination   | `LEFT_ALT, P`<br/>Left Alt  P |
+| Exact         | False |
+
+</td><td>
+
+| Key 2 | |
+|--|--|
+| Value         | PRESS |
+| End Value     | - |
+| Combination   | `False`<br/>None |
+| Exact         | False |
+
+</td></tr> </table>
+<br/>
+
+
+
+## UI Drag
 | ID | `key.valbox_drag` |
 |--|--|
 | Description | Key: Entering Value Box Drag Modal |
@@ -622,10 +734,10 @@ Menu default shortcut keys
 
 
 
-## Value Box Drag Modal Speed Factor Fast
+## UI Drag Modal Speed Factor Fast
 | ID | `key.valbox_drag_modal_fast` |
 |--|--|
-| Description | Key: Drag factor to fast |
+| Description | Key: Drag factor to fast in Value Box Drag Modal |
 <table>
 <tr><td>
 
@@ -650,10 +762,10 @@ Menu default shortcut keys
 
 
 
-## Value Box Drag Modal Speed Factor Slow
+## UI Drag Modal Speed Factor Slow
 | ID | `key.valbox_drag_modal_slow` |
 |--|--|
-| Description | Key: Drag factor to slow |
+| Description | Key: Drag factor to slow in Value Box Drag Modal |
 <table>
 <tr><td>
 
@@ -678,10 +790,10 @@ Menu default shortcut keys
 
 
 
-## Value Box Reset Array
+## UI Reset Array
 | ID | `key.valbox_reset_all` |
 |--|--|
-| Description | Key: Reset all to default values |
+| Description | Key: Reset all to default values in Value Box |
 <table>
 <tr><td>
 
@@ -706,10 +818,10 @@ Menu default shortcut keys
 
 
 
-## Value Box Reset Single
+## UI Reset Single
 | ID | `key.valbox_reset_single` |
 |--|--|
-| Description | Key: Reset single to default values |
+| Description | Key: Reset single to default values in Value Box |
 <table>
 <tr><td>
 
@@ -734,7 +846,7 @@ Menu default shortcut keys
 
 
 
-## Value Box Enter
+## Enter
 | ID | `key.valbox_dd` |
 |--|--|
 | Description | Key: Entering Value Box |
@@ -986,10 +1098,10 @@ Menu default shortcut keys
 
 
 
-## Add Driver
+## Add / Edit Driver
 | ID | `key.ui_add_driver` |
 |--|--|
-| Description | Key: Add Driver |
+| Description | Key: Add / Edit Driver |
 <table>
 <tr><td>
 
