@@ -1,10 +1,11 @@
 # vmdesk
-vmdesk renamed from Viewport Pro. 
-Currently, the alpha version is free for everyone.
 
-## Blender Market
+<!-- ## Blender Market
 - https://blendermarket.com/products/vmdesk
-- https://blendermarket.com/products/vmdesk-free
+- https://blendermarket.com/products/vmdesk-free -->
+
+## Blender Extensions
+- Under approval
 
 ## User Guide
 - [Summary](./MD/SUMMARY.md)
