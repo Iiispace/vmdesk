@@ -6,10 +6,66 @@ Menu default shortcut keys
 
 <!-- gen_context -->
 
-## Apply
+## Save as Shape Key Selected
+| ID | `key.area_save_as_shapekey` |
+|--|--|
+| Description | Key: Save selected element(s) as shape key in area |
+<table>
+<tr><td>
+
+| Key 1 | |
+|--|--|
+| Value         | PRESS |
+| End Value     | - |
+| Combination   | `LEFT_CTRL, LEFT_SHIFT, LEFT_ALT, A`<br/>Left Ctrl  Left Shift  Left Alt  A |
+| Exact         | False |
+
+</td><td>
+
+| Key 2 | |
+|--|--|
+| Value         | PRESS |
+| End Value     | - |
+| Combination   | `False`<br/>None |
+| Exact         | False |
+
+</td></tr> </table>
+<br/>
+
+
+
+## Apply as Shape Key Selected
+| ID | `key.area_apply_as_shapekey` |
+|--|--|
+| Description | Key: Apply selected element(s) as shape key in area |
+<table>
+<tr><td>
+
+| Key 1 | |
+|--|--|
+| Value         | PRESS |
+| End Value     | - |
+| Combination   | `LEFT_CTRL, LEFT_SHIFT, A`<br/>Left Ctrl  Left Shift  A |
+| Exact         | False |
+
+</td><td>
+
+| Key 2 | |
+|--|--|
+| Value         | PRESS |
+| End Value     | - |
+| Combination   | `False`<br/>None |
+| Exact         | False |
+
+</td></tr> </table>
+<br/>
+
+
+
+## Apply Selected
 | ID | `key.area_apply` |
 |--|--|
-| Description | Key: Apply element in area |
+| Description | Key: Apply selected element(s) in area |
 <table>
 <tr><td>
 
@@ -690,6 +746,34 @@ Menu default shortcut keys
 | Value         | RELEASE |
 | End Value     | - |
 | Combination   | `LEFT_ALT, P`<br/>Left Alt  P |
+| Exact         | False |
+
+</td><td>
+
+| Key 2 | |
+|--|--|
+| Value         | PRESS |
+| End Value     | - |
+| Combination   | `False`<br/>None |
+| Exact         | False |
+
+</td></tr> </table>
+<br/>
+
+
+
+## Search
+| ID | `key.area_search` |
+|--|--|
+| Description | Key: Find from panel. Open/close the search properties panel |
+<table>
+<tr><td>
+
+| Key 1 | |
+|--|--|
+| Value         | PRESS |
+| End Value     | - |
+| Combination   | `LEFT_CTRL, F`<br/>Left Ctrl  F |
 | Exact         | False |
 
 </td><td>

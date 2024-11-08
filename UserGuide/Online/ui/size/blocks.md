@@ -31,3 +31,9 @@ Block separator size. Default is 10 pixels.
 Block guideline width. Default is 1 pixel.
 
 ![](./img/blocks_guideline.png)
+
+## Header
+
+Block header border Top/bottom
+
+![](./img/blocks_header.png)

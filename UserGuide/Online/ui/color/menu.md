@@ -46,6 +46,18 @@
 <!--py$r_color_description("block")$-->Blocks background color<!---->
 ![](./img/menu_block.png)
 
+## <!--py$r_color_name("block_even")$-->Blocks BG Even<!---->
+<!--py$r_color_description("block_even")$-->Even Block background color<!---->
+![](./img/menu_block_even.png)
+
+## <!--py$r_color_name("block_title")$-->Blocks Title<!---->
+<!--py$r_color_description("block_title")$-->Blocks Title color<!---->
+![](./img/menu_block_title.png)
+
+## <!--py$r_color_name("block_title_even")$-->Blocks Title Even<!---->
+<!--py$r_color_description("block_title_even")$-->Even Block Title color<!---->
+![](./img/menu_block_title_even.png)
+
 ## <!--py$r_color_name("block_calc_display")$-->Blocks Calculator Display BG<!---->
 <!--py$r_color_description("block_calc_display")$-->Blocks Calculator Display background color<!---->
 ![](./img/menu_block_calc_display.png)
@@ -66,6 +78,10 @@
 <!--py$r_color_description("block_guideline0")$-->Blocks Guideline 0 color<!---->
 ![](./img/menu_block_guideline0.png)
 
+## <!--py$r_color_name("block_guideline1")$-->Blocks Guideline 1<!---->
+<!--py$r_color_description("block_guideline1")$-->Blocks Guideline 1 color<!---->
+![](./img/menu_block_guideline1.png)
+
 ## <!--py$r_color_name("box_tb")$-->Taskbar BG<!---->
 <!--py$r_color_description("box_tb")$-->Taskbar background color<!---->
 ![](./img/menu_box_tb.png)
@@ -78,6 +94,10 @@
 <!--py$r_color_description("box_text_active")$-->Active Text Box background color<!---->
 ![](./img/menu_box_text_active.png)
 
+## <!--py$r_color_name("box_text_fo")$-->Text Box Focus BG<!---->
+<!--py$r_color_description("box_text_fo")$-->Text Box focus background color<!---->
+![](./img/menu_box_text_fo.png)
+
 ## <!--py$r_color_name("box_text")$-->Text Box BG<!---->
 <!--py$r_color_description("box_text")$-->Text Box background color<!---->
 ![](./img/menu_box_text.png)
@@ -86,12 +106,12 @@
 <!--py$r_color_description("box_text_rim")$-->Text Box Rim color<!---->
 ![](./img/menu_box_text_rim.png)
 
-## <!--py$r_color_name("box_text_ignore")$-->Text Box BG Ignore<!---->
-<!--py$r_color_description("box_text_ignore")$-->Text Box background color (Ignore)<!---->
+## <!--py$r_color_name("box_text_ignore")$-->Text Box BG Inactive<!---->
+<!--py$r_color_description("box_text_ignore")$-->Text Box background color (Inactive)<!---->
 ![](./img/menu_box_text_ignore.png)
 
-## <!--py$r_color_name("box_text_rim_ignore")$-->Text Box Rim Ignore<!---->
-<!--py$r_color_description("box_text_rim_ignore")$-->Text Box Rim color (Ignore)<!---->
+## <!--py$r_color_name("box_text_rim_ignore")$-->Text Box Rim Inactive<!---->
+<!--py$r_color_description("box_text_rim_ignore")$-->Text Box Rim color (Inactive)<!---->
 ![](./img/menu_box_text_rim_ignore.png)
 
 ## <!--py$r_color_name("box_text_read")$-->Read Only Text Box BG<!---->
@@ -118,16 +138,16 @@
 <!--py$r_color_description("box_val_rim")$-->Value Box Rim color<!---->
 ![](./img/menu_box_val_rim.png)
 
-## <!--py$r_color_name("box_val_ignore")$-->Value Box BG Ignore<!---->
-<!--py$r_color_description("box_val_ignore")$-->Value Box background color (Ignore)<!---->
+## <!--py$r_color_name("box_val_ignore")$-->Value Box BG Inactive<!---->
+<!--py$r_color_description("box_val_ignore")$-->Value Box background color (Inactive)<!---->
 ![](./img/menu_box_val_ignore.png)
 
-## <!--py$r_color_name("box_val_rim_ignore")$-->Value Box Rim Ignore<!---->
-<!--py$r_color_description("box_val_rim_ignore")$-->Value Box Rim color (Ignore)<!---->
+## <!--py$r_color_name("box_val_rim_ignore")$-->Value Box Rim Inactive<!---->
+<!--py$r_color_description("box_val_rim_ignore")$-->Value Box Rim color (Inactive)<!---->
 ![](./img/menu_box_val_rim_ignore.png)
 
-## <!--py$r_color_name("box_val_fo")$-->Value Box Focus<!---->
-<!--py$r_color_description("box_val_fo")$-->Value Box focus color<!---->
+## <!--py$r_color_name("box_val_fo")$-->Value Box Focus BG<!---->
+<!--py$r_color_description("box_val_fo")$-->Value Box focus background color<!---->
 ![](./img/menu_box_val_fo.png)
 
 ## <!--py$r_color_name("box_val_active")$-->Value Box Active BG<!---->
@@ -146,12 +166,12 @@
 <!--py$r_color_description("box_val_bool_fo")$-->Check Box focus color<!---->
 ![](./img/menu_box_val_bool_fo.png)
 
-## <!--py$r_color_name("box_val_bool_ignore")$-->Check Box BG Ignore<!---->
-<!--py$r_color_description("box_val_bool_ignore")$-->Check Box background color (Ignore)<!---->
+## <!--py$r_color_name("box_val_bool_ignore")$-->Check Box BG Inactive<!---->
+<!--py$r_color_description("box_val_bool_ignore")$-->Check Box background color (Inactive)<!---->
 ![](./img/menu_box_val_bool_ignore.png)
 
-## <!--py$r_color_name("box_val_bool_rim_ignore")$-->Check Box Rim Ignore<!---->
-<!--py$r_color_description("box_val_bool_rim_ignore")$-->Check Box Rim color (Ignore)<!---->
+## <!--py$r_color_name("box_val_bool_rim_ignore")$-->Check Box Rim Inactive<!---->
+<!--py$r_color_description("box_val_bool_rim_ignore")$-->Check Box Rim color (Inactive)<!---->
 ![](./img/menu_box_val_bool_rim_ignore.png)
 
 ## <!--py$r_color_name("box_button")$-->Button BG<!---->
@@ -162,12 +182,12 @@
 <!--py$r_color_description("box_button_rim")$-->Button Rim color<!---->
 ![](./img/menu_box_button_rim.png)
 
-## <!--py$r_color_name("box_button_ignore")$-->Button BG Ignore<!---->
-<!--py$r_color_description("box_button_ignore")$-->Button background color (Ignore)<!---->
+## <!--py$r_color_name("box_button_ignore")$-->Button BG Inactive<!---->
+<!--py$r_color_description("box_button_ignore")$-->Button background color (Inactive)<!---->
 ![](./img/menu_box_button_ignore.png)
 
-## <!--py$r_color_name("box_button_rim_ignore")$-->Button Rim Ignore<!---->
-<!--py$r_color_description("box_button_rim_ignore")$-->Button Rim color (Ignore)<!---->
+## <!--py$r_color_name("box_button_rim_ignore")$-->Button Rim Inactive<!---->
+<!--py$r_color_description("box_button_rim_ignore")$-->Button Rim color (Inactive)<!---->
 ![](./img/menu_box_button_rim_ignore.png)
 
 ## <!--py$r_color_name("box_button_fo")$-->Button Focus<!---->
@@ -214,13 +234,13 @@
 <!--py$r_color_description("box_buttonon_fo")$-->Button Switch focus color when button value is True<!---->
 ![](./img/menu_box_buttonon_fo.png)
 
-No function, spare.
-
 ## <!--py$r_color_name("box_buttonon_rim_fo")$-->Button Switch On Rim Focus<!---->
 <!--py$r_color_description("box_buttonon_rim_fo")$-->Button Switch Rim focus color when button value is True<!---->
 ![](./img/menu_box_buttonon_rim_fo.png)
 
-No function, spare.
+## <!--py$r_color_name("box_buttonon_ignore")$-->Button Switch On BG Inactive<!---->
+<!--py$r_color_description("box_buttonon_ignore")$-->Button Switch background color when button value is True (Inactive)<!---->
+![](./img/menu_box_buttonon_ignore.png)
 
 ## <!--py$r_color_name("box_filter")$-->Filter Area BG<!---->
 <!--py$r_color_description("box_filter")$-->Filter Area background color<!---->
@@ -346,7 +366,7 @@ No function, spare.
 <!--py$r_color_description("box_text_fg")$-->Text Box foreground color<!---->
 ![](./img/menu_box_text_fg.png)
 
-## <!--py$r_color_name("box_text_fg_ignore")$-->Text Box Ignore FG<!---->
+## <!--py$r_color_name("box_text_fg_ignore")$-->Text Box Inactive FG<!---->
 <!--py$r_color_description("box_text_fg_ignore")$-->Text Box ignore foreground color<!---->
 ![](./img/menu_box_text_fg_ignore.png)
 
@@ -394,8 +414,8 @@ No function, spare.
 <!--py$r_color_description("block_fg")$-->Blocks foreground color<!---->
 ![](./img/menu_block_fg.png)
 
-## <!--py$r_color_name("block_fg_ignore")$-->Blocks FG Ignore<!---->
-<!--py$r_color_description("block_fg_ignore")$-->Blocks foreground color (Ignore)<!---->
+## <!--py$r_color_name("block_fg_ignore")$-->Blocks FG Inactive<!---->
+<!--py$r_color_description("block_fg_ignore")$-->Blocks foreground color (Inactive)<!---->
 ![](./img/menu_block_fg_ignore.png)
 
 ## <!--py$r_color_name("block_fg_info")$-->Blocks Info FG<!---->

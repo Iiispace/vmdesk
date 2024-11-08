@@ -14,7 +14,7 @@
 <!--py$r_color_description("box_text_fg")$-->Text Box foreground color<!---->
 ![](./img/menu_box_text_fg.png)
 
-## <!--py$r_color_name("box_text_fg_ignore")$-->Text Box Ignore FG<!---->
+## <!--py$r_color_name("box_text_fg_ignore")$-->Text Box Inactive FG<!---->
 <!--py$r_color_description("box_text_fg_ignore")$-->Text Box ignore foreground color<!---->
 ![](./img/menu_box_text_fg_ignore.png)
 
@@ -62,8 +62,8 @@
 <!--py$r_color_description("block_fg")$-->Blocks foreground color<!---->
 ![](./img/menu_block_fg.png)
 
-## <!--py$r_color_name("block_fg_ignore")$-->Blocks FG Ignore<!---->
-<!--py$r_color_description("block_fg_ignore")$-->Blocks foreground color (Ignore)<!---->
+## <!--py$r_color_name("block_fg_ignore")$-->Blocks FG Inactive<!---->
+<!--py$r_color_description("block_fg_ignore")$-->Blocks foreground color (Inactive)<!---->
 ![](./img/menu_block_fg_ignore.png)
 
 ## <!--py$r_color_name("block_fg_info")$-->Blocks Info FG<!---->

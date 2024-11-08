@@ -1529,7 +1529,7 @@ Text Box and Filter Area default shortcut keys
 |--|--|
 | Value         | PRESS |
 | End Value     | - |
-| Combination   | `LEFT_CTRL, P`<br/>Left Ctrl  P |
+| Combination   | `F`<br/>F |
 | Exact         | False |
 
 </td><td>
@@ -1538,7 +1538,7 @@ Text Box and Filter Area default shortcut keys
 |--|--|
 | Value         | PRESS |
 | End Value     | - |
-| Combination   | `LEFT_CTRL, I`<br/>Left Ctrl  I |
+| Combination   | `LEFT_CTRL, P`<br/>Left Ctrl  P |
 | Exact         | False |
 
 </td></tr> </table>

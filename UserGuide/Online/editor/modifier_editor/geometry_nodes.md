@@ -24,13 +24,33 @@ Unindent to level 0.
 ```
 ;#0
 ```
+---
+### Header
+Show title only when indented by default.
 
-### Title Indent
-Show title only when indented.
+![](./img/indent_title.png)
 
-Enable the **Hide Value** property.
+- Header Alignment
+  - Show Title and Value on Header
+    ```
+    ;align()
+    ```
+    ![](./img/indent_title_align.png)
+  - Boolean
+    ![](./img/indent_title_align_bool.png)
 
-![](./img/indent2.png)
+  - Show Title and Full Size Value
+    ```
+    ;align(fit)
+    ```
+    ![](./img/indent_title_align_fit.png)
+
+  - Value Only
+    ```
+    ;align(full)
+    ```
+    ![](./img/indent_title_align_full.png)
+---
 
 ### Separator
 ```
@@ -42,21 +62,17 @@ Enable the **Hide Value** property.
 ![](./img/indent3.png)
 
 ### Alignment
-```
-;align(x)
-    Parameters:
-        x : 
-            hide : Hide the socket
-            title : boolean title
-            right : Align right
-```
+ - Boolean
 
-```
-;align(title)
-```
-![](./img/indent4.png)
+   - Default / Title Right
+        ```
+        ;align(right)
+        ```
+        ![](./img/indent_bool_default.png)
 
-```
-;#1;align(right)
-```
-![](./img/indent5.png)
+   - Title Left
+        ```
+        ;align(left)
+        ```
+        ![](./img/indent_bool_left.png)
+
