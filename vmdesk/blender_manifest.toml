@@ -1,0 +1,26 @@
+schema_version = "1.0.0"
+
+id = "VMD"
+version = "2.2.0"
+name = "vmdesk"
+tagline = "Multitasking editor environment in Viewport"
+maintainer = "LAW.Y.T <oorcer@gmail.com>"
+type = "add-on"
+
+website = "https://github.com/Iiispace/vmdesk/issues"
+
+tags = ["3D View", "Modeling", "Mesh", "Object", "User Interface"]
+
+blender_version_min = "4.2.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+
+copyright = [
+  "2024 LAW.Y.T",
+]
+
+[permissions]
+files = "Import/export from disk to user-supplied path"
+clipboard = "Copy and paste from shortcut/UI"
